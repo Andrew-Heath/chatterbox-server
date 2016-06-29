@@ -160,7 +160,6 @@ app.fetch = function() {
   app.handleSubmit = e => {
     e.preventDefault();
     e.stopPropagation();
-    handleFlag = true;
 
     var post = {};
     post.username = app.username;
